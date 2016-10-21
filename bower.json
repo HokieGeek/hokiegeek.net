@@ -1,0 +1,23 @@
+{
+  "name": "hokiegeek.net",
+  "homepage": "hokiegeek.net",
+  "authors": [
+    "HokieGeek <andres.f.perez@gmail.com>"
+  ],
+  "description": "My website",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "hg-home": "git@github.com:HokieGeek/hg-home.git",
+    "hg-tea": "git@github.com:HokieGeek/hg-tea.git",
+    "hg-house": "git@github.com:HokieGeek/hg-house.git"
+  }
+}
