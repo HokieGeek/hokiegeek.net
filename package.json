@@ -1,0 +1,22 @@
+{
+  "name": "hokiegeek.net",
+  "version": "0.0.0",
+  "description": "Repository which brings together all of my other repos that comprise my site",
+  "main": "app.js",
+  "scripts": {
+    "start": "serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/HokieGeek/hokiegeek.net.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HokieGeek/hokiegeek.net/issues"
+  },
+  "dependencies": {
+    "serve": "~1.4.0"
+  }
+}
