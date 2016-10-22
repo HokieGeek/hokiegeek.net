@@ -2,7 +2,7 @@
   "name": "hokiegeek.net",
   "version": "0.0.0",
   "description": "Repository which brings together all of my other repos that comprise my site",
-  "main": "app.js",
+  "main": "",
   "scripts": {
     "start": "serve",
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git://github.com/HokieGeek/hokiegeek.net.git"
   },
-  "author": "",
+  "author": "HokieGeek <andres.f.perez@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/HokieGeek/hokiegeek.net/issues"
