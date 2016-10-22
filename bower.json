@@ -18,6 +18,6 @@
   "dependencies": {
     "hg-home": "http://github.com/HokieGeek/hg-home.git",
     "hg-tea": "http://github.com/HokieGeek/hg-tea.git",
-    "hg-house": "http://github.com/HokieGeek/hg-house.git",
+    "hg-house": "http://github.com/HokieGeek/hg-house.git"
   }
 }
