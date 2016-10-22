@@ -16,8 +16,8 @@
     "tests"
   ],
   "dependencies": {
-    "hg-home": "git@github.com:HokieGeek/hg-home.git",
-    "hg-tea": "git@github.com:HokieGeek/hg-tea.git",
-    "hg-house": "git@github.com:HokieGeek/hg-house.git"
+    "hg-home": "http://github.com/HokieGeek/hg-home.git",
+    "hg-tea": "http://github.com/HokieGeek/hg-tea.git",
+    "hg-house": "http://github.com/HokieGeek/hg-house.git",
   }
 }
