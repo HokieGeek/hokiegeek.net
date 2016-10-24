@@ -22,7 +22,6 @@
     "@angular/platform-browser-dynamic": "~2.1.0",
     "@angular/router": "~3.1.0",
     "@angular/upgrade": "~2.1.0",
-    "bower": "^1.7.9",
     "core-js": "^2.4.1",
     "hg-tea": "git+https://git@github.com/hokiegeek/hg-tea.git",
     "reflect-metadata": "^0.1.8",

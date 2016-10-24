@@ -3,7 +3,6 @@
     paths: {
       // paths serve as alias
       'npm:': 'node_modules/',
-      // 'bower:': 'bower_components/'
     },
     // map tells the System loader where to look for things
     map: {
@@ -19,7 +18,7 @@
       '@angular/router': 'npm:@angular/router/bundles/router.umd.js',
       // other libraries
       'rxjs': 'npm:rxjs',
-      'hg-tea': 'npm:hg-tea/app',
+      'hg-tea': 'npm:hg-tea',
     },
     // packages tells the System loader how to load when no filename and/or no extension
     packages: {
@@ -30,9 +29,9 @@
       rxjs: {
         defaultExtension: 'js'
       },
-      // hg-tea: {
-      //   defaultExtension: 'js'
-      // },
+      'hg-tea': {
+        defaultExtension: 'js'
+      },
     }
   });
 })(this);
