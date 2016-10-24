@@ -2,23 +2,44 @@
   "name": "hokiegeek.net",
   "version": "0.0.0",
   "description": "Repository which brings together all of my other repos that comprise my site",
-  "main": "",
+  "main": "index.html",
   "scripts": {
+    "dev": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "start": "serve",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "postinstall": "bower install"
+    "postinstall": "typings install",
+    "typings": "typings"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/HokieGeek/hokiegeek.net.git"
   },
+  "dependencies": {
+    "@angular/common": "~2.1.0",
+    "@angular/compiler": "~2.1.0",
+    "@angular/core": "~2.1.0",
+    "@angular/http": "~2.1.0",
+    "@angular/platform-browser": "~2.1.0",
+    "@angular/platform-browser-dynamic": "~2.1.0",
+    "@angular/router": "~3.1.0",
+    "@angular/upgrade": "~2.1.0",
+    "bower": "^1.7.9",
+    "core-js": "^2.4.1",
+    "hg-tea": "git+https://git@github.com/hokiegeek/hg-tea.git",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "serve": "~1.4.0",
+    "systemjs": "0.19.39",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "concurrently": "^3.0.0",
+    "lite-server": "^2.2.2",
+    "typescript": "^2.0.3",
+    "typings": "^1.4.0"
+  },
   "author": "HokieGeek <andres.f.perez@gmail.com>",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/HokieGeek/hokiegeek.net/issues"
-  },
-  "dependencies": {
-    "bower": "^1.7.9",
-    "serve": "~1.4.0"
   }
 }

@@ -1,5 +1,4 @@
 {
-    "directory" : ".",
     "scripts" : {
         "postinstall": "./bower-postinstall.sh"
     }
