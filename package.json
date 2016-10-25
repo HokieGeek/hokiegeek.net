@@ -5,7 +5,7 @@
   "main": "index.html",
   "scripts": {
     "dev": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "start": "serve",
+    "start": "tsc && serve",
     "postinstall": "typings install",
     "typings": "typings"
   },
