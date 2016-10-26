@@ -5,9 +5,10 @@
   "main": "index.html",
   "scripts": {
     "dev": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
-    "start": "tsc && serve",
-    "postinstall": "typings install",
-    "typings": "typings"
+    "start": "serve",
+    "postinstall": "typings install && tsc",
+    "typings": "typings",
+    "tsc": "tsc"
   },
   "repository": {
     "type": "git",
@@ -28,14 +29,14 @@
     "rxjs": "5.0.0-beta.12",
     "serve": "~1.4.0",
     "systemjs": "0.19.39",
+    "tsc": "^1.20150623.0",
+    "typings": "^1.4.0",
     "zone.js": "^0.6.25"
   },
   "devDependencies": {
     "concurrently": "^3.0.0",
     "lite-server": "^2.2.2",
-    "typescript": "^2.0.3",
-    "tsc": "^1.20150623.0",
-    "typings": "^1.4.0"
+    "typescript": "^2.0.3"
   },
   "author": "HokieGeek <andres.f.perez@gmail.com>",
   "license": "MIT",
