@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
     "start": "serve",
-    "postinstall": "typings install && tsc",
+    "postinstall": "typings install",
     "typings": "typings",
     "tsc": "tsc"
   },
