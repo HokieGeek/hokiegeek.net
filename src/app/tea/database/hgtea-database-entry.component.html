@@ -1,0 +1,36 @@
+<div class="card-block">
+    <!--img class="card-img-top" *ngIf="tea.pictures.length > 0" src="blah/{{tea.pictures[0]}}" alt="Card image cap" -->
+    <h4 class="card-title d-inline" [ngClass]="{notStocked: !tea.stocked}">{{tea.name}}</h4>
+    <h6 class="card-subtitle text-muted d-inline" *ngIf="tea.country">
+        <span *ngIf="tea.region"> {{tea.region}}, </span>
+        {{tea.country}}
+    </h6>
+    <p class="card-text" *ngIf="tea.year">{{tea.flush}} {{tea.year}}</p>
+    <p class="card-text" *ngIf="tea.purchaseprice">
+        Purchased
+        <span *ngIf="tea.size">a {{tea.size}}</span>
+        <span *ngIf="tea.purchaselocation">from {{tea.purchaselocation}}</span>
+        <span *ngIf="tea.purchasedate">on {{tea.purchasedate}}</span>
+        for {{tea.purchaseprice | currency:'USD':true}}
+    </p>
+    <p class="card-text">
+        <span class="card-text teaComments" *ngIf="tea.comments">{{tea.comments}}</span>
+    </p>
+
+    <p class="card-text pull-xs-right" *ngIf="tea.date"><small class="text-muted">Entered on {{tea.date}}</small></p>
+
+    <!--
+        pictures: string[]
+
+        leafgrade: string
+
+        blendedteas: string[]
+        blendratio: string[]
+
+        Not doing?:
+        aging: boolean
+        packaging: string
+        ratings: string[]
+    -->
+</div>
+<div class="card-footer text-muted" *ngIf="tea.type">{{tea.type}}</div>

@@ -7,7 +7,7 @@ import { RouterModule }   from '@angular/router';
 import { AppComponent } from './app.component';
 import { HomeComponent }  from './home.component';
 
-import { HgTeaModule }    from 'hg-tea/src/app/app.module';
+import { HgTeaModule }    from './tea/app.module';
 
 @NgModule({
   declarations: [
