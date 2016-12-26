@@ -44,32 +44,6 @@ export class TeaDbService {
     }
 
     private convertJsonToTea(json: Object): Tea {
-        /*
-        return new Tea(
-        0,
-        "",
-        "",
-        "",
-        "",
-        "",
-        0,
-        0,
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        "",
-        false,
-        false,
-        ""
-        );
-                      */
         return new Tea(json["gsx$id"]["$t"],
                        json["gsx$name"]["$t"],
                        json["gsx$timestamp"]["$t"],
@@ -111,21 +85,6 @@ export class TeaDbService {
                         json["gsx$sessioninstance"]["$t"],
                         json["gsx$fixins"]["$t"],
                         );
-        /*
-        return new Entry(json["gsx$tea"]["$t"],
-                         json["gsx$comments"]["$t"],
-                         json["gsx$timestamp"]["$t"],
-                         json["gsx$date"]["$t"],
-                         json["gsx$time"]["$t"],
-                         json["gsx$rating"]["$t"],
-                         json["gsx$pictures"]["$t"],
-                         json["gsx$steeptime"]["$t"],
-                         json["gsx$steepingvessel"]["$t"],
-                         json["gsx$steeptemperature"]["$t"],
-                         json["gsx$sessioninstance"]["$t"], // Culprit?
-                         json["gsx$fixins"]["$t"],
-                        );
-                        */
     }
 
     private handleError (error: any) {
